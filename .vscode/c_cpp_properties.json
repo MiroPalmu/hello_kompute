@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Clang 14",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "intelliSenseMode": "linux-clang-x64",
+            "compilerPath": "/usr/bin/clang-14",
+            "cppStandard": "c++20",
+            "compilerArgs": [
+                "-stdlib=libc++"
+            ]
+        },
+        {
+            "name": "g++-11 vulkan",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/vulkan/**"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "intelliSenseMode": "linux-clang-x64",
+            "compilerPath": "/usr/bin/g++-11",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
